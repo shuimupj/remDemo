@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script>!function(e){function t(a){if(i[a])return i[a].exports;var n=i[a]={exports:{},id:a,loaded:!1};return e[a].call(n.exports,n,n.exports,t),n.loaded=!0,n.exports}var i={};return t.m=e,t.c=i,t.p="",t(0)}([function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=window;t["default"]=i.flex=function(normal,e,t){var a=e||100,n=t||1,r=i.document,o=navigator.userAgent,d=o.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),l=o.match(/U3\/((\d+|\.){5,})/i),c=l&&parseInt(l[1].split(".").join(""),10)>=80,p=navigator.appVersion.match(/(iphone|ipad|ipod)/gi),s=i.devicePixelRatio||1;p||d&&d[1]>534||c||(s=1);var u=normal?1:1/s,m=r.querySelector('meta[name="viewport"]');m||(m=r.createElement("meta"),m.setAttribute("name","viewport"),r.head.appendChild(m)),m.setAttribute("content","width=device-width,user-scalable=no,initial-scale="+u+",maximum-scale="+u+",minimum-scale="+u),r.documentElement.style.fontSize=normal?"50px": a/2*s*n+"px"},e.exports=t["default"]}]);  flex(false,100, 1);</script>
+	<title>Document</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<section class="wrap">
+
+	<div class="head_fixed">
+		<header class="m-header">
+			<h1 class="m-title">标题</h1>
+			<a href="javascript:;" class="m-link m-link-back">返回</a>
+			<a href="javascript:;" class="m-link m-link-more"></a>
+		</header>
+	</div>
+	<!-- 顶部悬浮 end -->
+
+	<div class="foot_fixed">
+		<footer class="table fs12 footer">
+			<a href="#" class="table-cell active"><i class="fi-1"></i>首页</a>
+			<a href="#" class="table-cell"><i class="fi-2"></i>分类</a>
+			<a href="#" class="table-cell"><i class="fi-3"></i>客服</a>
+			<a href="#" class="table-cell"><i class="fi-4"></i>购物车</a>
+			<a href="#" class="table-cell"><i class="fi-5"></i>我的</a>
+		</footer>
+	</div>
+	<!-- 底部悬浮 end -->
+
+	<section class="main">
+
+		<p class="size fs30"></p>
+		<p>默认字体大小</p>
+		<p class="size2 fs10">fs10:字体大小123456</p>
+		<p class="size2 fs11">fs11:字体大小123456</p>
+		<p class="size2 fs12">fs12:字体大小123456</p>
+		<p class="size2 fs13">fs13:字体大小123456</p>
+		<p class="size2 fs14">fs14:字体大小123456</p>
+		<p class="size2 fs15">fs15:字体大小123456</p>
+		<p class="size2 fs16">fs16:字体大小123456</p>
+		<p class="size2 fs18">fs18:字体大小123456</p>
+		<p class="size2 fs20">fs20:字体大小123456</p>
+		<p class="size2 fs24">fs24:字体大小123456</p>
+		<p class="size2 fs30">fs30:字体大小123456</p>
+		<p class="size2 fs40">fs40:字体大小123456</p>
+		<p class="fs24">字体大小<span class="red">span标签</span>大小123</p>
+		<p class="fs24">字体大小<i class="yellow">i标签</i>大小123</p>
+		<del class="fs24">del:字体大小123456</del>
+		<br/>
+		<ins class="fs24">ins:字体大小123456</ins>
+
+
+		<br/>
+		<br/>
+		<div class="">
+			<span class="hint-num">数字角标<em>1</em></span>
+			<span class="hint-num">数字角标<em>9</em></span>
+			<span class="hint-num">数字角标<em>999</em></span>
+			<p class="hint-txt">文字角标</p>
+		</div>
+		<br/>
+
+
+		<form action="" style="padding: 0.22rem;">
+			<input type="text" class="fs14 form-unify" placeholder="奥术大师" disabled>
+			<br/>
+			<input type="text" class="fs14 form-unify" value="奥术大师" style="border-color: #ccc;">
+			<br/>
+			<input type="text" class="fs14 form-unify" value="奥术大师" id="name">
+			<br/>
+			<select name="" class="fs14 form-unify">
+				<option value="1">奥术大师1</option>
+				<option value="2">奥术大师2</option>
+				<option value="3">奥术大师3</option>
+				<option value="4">奥术大师4</option>
+			</select>
+			<br/>
+			<textarea name="" class="fs14 form-unify" rows="5">奥术大师</textarea>
+			<br/>
+			<button type="button" class="fs14 form-unify">奥术大师</button>
+			<br/>
+		</form>
+
+
+		<button type="button" class="fs14 btn-block">奥术大师</button>
+		<br/>
+		<button type="button" class="bg_own fs14 btn-block">奥术大师</button>
+		<br/>
+		<button type="button" class="fs14 btn-block btn-block_outlined">奥术大师</button>
+		<br/>
+		<button type="button" class="fs14 btn-block btn-block_radius">奥术大师</button>
+
+
+		<br/>
+		<a href="javascript:;" class="fs13 btn-mini">奥术大师</a>
+		<a href="javascript:;" class="fs13 btn-mini btn-mini_primary">奥术大师</a>
+		<a href="javascript:;" class="fs13 btn-mini btn-mini_outlined">奥术大师</a>
+		<a href="javascript:;" class="fs13 btn-mini btn-mini_solid">奥术大师</a>
+		<br/>
+		<br/>
+
+
+		<ul class="clearfix list">
+			<li class="bb m-list-flex">
+				<div class="m-cell-hd">
+					<img src="images/img_head.jpg" alt="" class="imgm">
+				</div>
+				<div class="m-cell-bd">
+					<h3 class="fs14 col3 single-line">去玩儿童与欧洲行阿斯蒂芬改好具有过分热的宣传妨功害能</h3>
+					<p class="fs12 col9">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+				</div>
+			</li>
+			<li class="bb m-list-flex m-arrow-right">
+				<div class="m-cell-hd">
+					<img src="images/img_head.jpg" alt="" class="imgm">
+				</div>
+				<div class="m-cell-bd">
+					<h3 class="fs14 col3 single-line">去玩儿童与欧洲行阿斯蒂芬改好具有过分热的宣传妨功害能去玩儿童与欧洲行阿斯蒂芬改好具有过分热的宣传妨功害能</h3>
+					<p class="fs12 col9">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+				</div>
+				<div class="m-cell-rt"></div>
+			</li>
+			<li class="bb m-list-flex m-arrow-up">
+				<div class="m-cell-hd">
+					<img src="images/img_head.jpg" alt="" class="imgm">
+				</div>
+				<div class="m-cell-bd">
+					<h3 class="fs14 col3 single-line">去玩儿童与欧洲行阿斯蒂芬改好具有过分热的宣传妨功害能</h3>
+					<p class="fs12 col9">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+				</div>
+				<div class="m-cell-rt"></div>
+			</li>
+			<li class="bb m-list-flex m-arrow-down">
+				<div class="m-cell-hd">
+					<img src="images/img_head.jpg" alt="" class="imgm">
+				</div>
+				<div class="m-cell-bd">
+					<h3 class="fs14 col3 single-line">去玩儿童与欧洲行阿斯蒂芬改好具有过分热的宣传妨功害能去玩儿童与欧洲行阿斯蒂芬改好具有过分热的宣传妨功害能</h3>
+					<p class="fs12 col9">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭离开京汉股份但是刷新曹尼玛颇有</p>
+				</div>
+				<div class="m-cell-rt"></div>
+			</li>
+			<li class="bb m-list-flex">
+				<div class="m-cell-hd">
+					<img src="images/img_head.jpg" alt="" class="imgm">
+				</div>
+				<div class="m-cell-bd">
+					<h3 class="fs14 col3 single-line">去玩儿童与欧洲行阿斯蒂芬改好具有过分热的宣传妨功害能</h3>
+					<p class="fs12 col9">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+				</div>
+				<div class="fs16 red">￥999.00</div>
+			</li>
+		</ul>
+
+
+		<div class="popup-wrap">
+			<div class="popup-container">
+				<div class="popup-modal">
+					<p class="fs16">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+					<p class="fs12">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+					<p class="fs13">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+					<p class="fs14">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+					<p class="fs14">离开京汉股份但是刷新曹尼玛颇有我是想耳朵出入法庭</p>
+				</div>
+				<div class="popup-toolbar">
+					<a href="javascript:;" class="cancel">取消</a>
+					<a href="javascript:;" class="sure">确定</a>
+				</div>
+			</div>
+		</div>
+		<div class="popup-mask"></div>
+		<script>
+		// window.flex(true); // 禁止了页面压缩，高清屏的1像素就不能实现了
+		$(function (){
+			var size = $('html').css('font-size');
+			$('.size').html('html字体大小:'+size);
+			$('.size2').each(function(index, el) {
+				var size2 = $(this).css('font-size');
+				$(this).append('=当前大小:'+size2);
+			});
+
+
+			$(document).on('click', '.btn-block_outlined', function() {
+				$('.popup-wrap').addClass('popup-wrap_visible');
+				$('.popup-mask').addClass('popup-mask_visible');
+			});
+			$(document).on('click', '.popup-mask,.popup-toolbar .cancel', function() {
+				$('.popup-wrap_visible').removeClass('popup-wrap_visible');
+				$('.popup-mask_visible').removeClass('popup-mask_visible');
+			});
+		});
+		</script>
+
+
+	</section>
+	<!-- main end -->
+
+
+
+</section>
+<!-- wrap end -->
+
+
+</body>
+</html>
